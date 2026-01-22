@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.custom-btn-green {
+    background-color: #76b900;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.custom-btn-green:hover {
+    background-color: #619a00;
+    color: #fff;
+}
+
+.custom-orange-btn {
+    background-color: #ffaa00;
+    border: none;
+}
+
+.custom-orange-btn:hover {
+    background-color: #e69900;
+    color: #fff;
+}
+
+.custom-blue-btn {
+    background-color: #007bff;
+    border: none;
+}
+
+.custom-blue-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.custom-green-teal-btn {
+    background-color: #20c997;
+    border: none;
+}
+
+.custom-green-teal-btn:hover {
+    background-color: #198754;
+    color: #fff;
+}
+
+
+.navbar-nav .nav-link {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff !important;
+}
+
+.grayscale-logos {
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.grayscale-logos i {
+    opacity: 0.7;
+}
+
+.profile-image-container {
+    background-color: #333;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.form-control::placeholder {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #76b900;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 50%, 50%;
+}
+
+.bg-light-warning {
+    background-color: rgba(255, 170, 0, 0.1) !important;
+    color: #ffaa00 !important;
+}
+
+.bg-light-primary {
+    background-color: rgba(0, 123, 255, 0.1) !important;
+    color: #007bff !important;
+}
+
+.bg-light-success {
+    background-color: rgba(32, 201, 151, 0.1) !important;
+    color: #20c997 !important;
+}
